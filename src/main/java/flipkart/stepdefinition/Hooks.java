@@ -9,22 +9,22 @@ public class Hooks {
 	
 	@Before
 	public void checkBeforeHook() {
-		System.out.println("Priting with Before Hook");
+		System.out.println("Priting with Before Hooks");
 	}
 	
 	@After
 	public void checkAfterHook() {
-		System.out.println("Priting with After Hook");
+		System.out.println("Priting with After Hooks");
 	}
 	
 	@BeforeStep
 	public void checkBeforeStepHook() {
-		System.out.println("Priting with Before Step Hook");
+		System.out.println("Priting with Before Step Hooks");
 	}
 	
 	@AfterStep
 	public void checkAfterStepHook() {
-		System.out.println("Priting with After Step Hook");
+		System.out.println("Priting with After Step Hooks");
 	}
 	
 
